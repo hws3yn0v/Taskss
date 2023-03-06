@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+ul>li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 45px;
+    padding-top: 45px;
+    color: rgb(164, 152, 152);
+    font-family: sans-serif;
+
+
+}
+
+.p-class {
+    padding-left: 70px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.register {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+
+}
+
+.start-today {
+    width: 87px;
+    height: 20px;
+    background-color: #d4dae3;
+    border-radius: 10px;
+    position: relative;
+    bottom: 40rem;
+    left: 5rem;
+
+}
+
+.starttext {
+    padding-left: 5px;
+}
+
+.text {
+    width: 40rem;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text2 {
+    width: 40rem;
+    margin-top: 20px;
+    color: #a2a2a2;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.formregister {
+    position: relative;
+    bottom: 42rem;
+    height: 300px;
+    width: 32%;
+    left: 60rem;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+.form {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.registerway {
+    position: relative;
+    bottom: 40rem;
+    height: 100px;
+    width: 32%;
+    left: 60rem;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.formstylep {
+    padding-left: 20px;
+    padding-top: 25px;
+    font-family: sans-serif;
+    font-size: 19px;
+    color: rgb(46, 118, 220);
+}
+
+#fname {
+    border-radius: 7px;
+    height: 40px;
+    width: 45%;
+    border-color: rgb(158, 157, 157);
+    padding-left: 5rem;
+}
+
+#lname {
+
+    border-radius: 7px;
+    height: 40px;
+    width: 45%;
+    position: relative;
+    left: 18rem;
+    bottom: 2.5rem;
+    border-color: rgb(158, 157, 157);
+}
+
+.lnameplace {
+    position: relative;
+    bottom: 1.8rem;
+    left: 1.3rem;
+}
+
+#email {
+    border-radius: 7px;
+    height: 40px;
+    width: 70%;
+    position: relative;
+    right: 21rem;
+    bottom: 15px;
+    right: 0.2rem;
+    border-color: rgb(158, 157, 157);
+
+}
+
+.emailplace {
+    position: relative;
+    right: 15rem;
+    bottom: 0.5rem;
+
+
+}
+
+.inputtextplace {
+    position: relative;
+    top: 1.5rem;
+    height: 40px;
+    width: 75%;
+    border-radius: 7px;
+    right: 0.2rem;
+    border-color: rgb(158, 157, 157);
+
+
+}
+
+.companyplace {
+    position: relative;
+    top: 2rem;
+    right: 15rem;
+}
+
+.submit {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    right: 0.5rem;
+    height: 40px;
+    color: #ffffff;
+    background-color: rgb(9, 78, 175);
+    border-radius: 7px;
+}
+
+.logo {
+    width: 75%;
+    height: 210px;
+    padding-left: 33rem;
+    position: relative;
+    bottom: 22rem;
+}
+
+.services {
+    background-color: #f1e0e3;
+    ;
+    width: 100%;
+    height: 55rem;
+}
+
+.marketing {
+    width: 5%;
+    height: 20px;
+    background-color: rgb(226, 165, 218);
+    border-radius: 10px;
+    position: relative;
+    top: 5rem;
+    left: 17rem;
+
+
+}
+
+.marketingtext {
+    padding-left: 7px;
+}
+
+.pmarketing {
+    width: 400%;
+    font-family: sans-serif;
+    font-weight: 900px;
+    word-spacing: 3px;
+    font-size: 25px;
+}
+
+.pmarketing2 {
+    width: 600%;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #a2a2a2;
+
+}
+
+.cultivate {
+    width: 35%;
+    height: 250px;
+    background-color: #ffffff;
+    margin-top: 16rem;
+    margin-left: 17rem;
+}
+
+i {
+    font-size: 60px;
+    padding-top: 40px;
+    padding-left: 40px;
+    color: rgb(226, 165, 218);
+}
+
+.pcultivate {
+    margin-top: 12px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700px;
+}
+
+.footcultivate {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    color: #a2a2a2;
+
+
+}
+
+.fa-solid {
+    color: green;
+}
+
+.sale {
+    width: 35%;
+    height: 250px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 15.5rem;
+    left: 60rem;
+}
+
+.psale {
+    margin-top: 12px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700px;
+}
+
+.footsale {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    color: #a2a2a2;
+
+
+}
+
+#iconwrench {
+    color: rgb(31, 107, 222);
+}
+
+.wrench {
+    width: 35%;
+    height: 250px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 13rem;
+    left: 17rem
+}
+
+.pwrench {
+    margin-top: 12px;
+    padding-left: 7px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700px;
+}
+
+.footwrench {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    color: #a2a2a2;
+}
+
+.custom {
+    width: 35%;
+    height: 250px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 28.5rem;
+    left: 60.2rem;
+}
+
+.pcustom {
+    margin-top: 12px;
+    padding-left: 7px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700px;
+
+}
+
+.footp {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    color: #a2a2a2;
+}
+
+#icontable {
+    color: gold;
+}
+
+.foot {
+    background-color: #4082c4;
+    width: 100%;
+    height: 150px;
+}
+
+.ptext {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 23px;
+    padding-top: 70px;
+    font-weight: bold;
+}
